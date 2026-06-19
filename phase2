@@ -1,0 +1,23 @@
+# Phase 2: System Architecture and Design
+
+## Architecture
+- **Presentation:** React SPA with Tailwind CSS.
+- **Application:** Node.js Express REST API.
+- **Data:** PostgreSQL.
+
+## Database Schema
+- **Brukere:** `id`, `navn`, `email`, `rolle`
+- **Rom:** `id`, `navn`, `antall_plasser`
+- **Bookinger:** `id`, `bruker_id`, `rom_id`, `dato`, `tid`
+
+## Core Pages
+1. Login
+2. Room/Seat Overview (Floor Map)
+3. Booking Workspace
+4. My Bookings
+
+## API Endpoints
+- `GET /api/rom`
+- `POST /api/bookinger`
+- `GET /api/mine-bookinger`
+- `DELETE /api/bookinger/:id`
